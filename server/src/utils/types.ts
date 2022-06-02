@@ -1,0 +1,11 @@
+enum ErrorCodes {
+  INVALID_EMAIL=404,
+  EMAIL_IN_USE=400,
+  SERVER_ERROR=500,
+  WRONG_PASSWORD=400,
+  UNAUTHORIZED=401
+}
+
+export {
+  ErrorCodes
+};
